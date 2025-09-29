@@ -10,7 +10,8 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 
-const API_KEY = '907914fd93fd16000f634a4d42218927';
+// const API_KEY = '907914fd93fd16000f634a4d42218927';
+const API_KEY = process.env.REACT_APP_WEATHER_TOKEN_API_KEY;
 // const API_KEY = 'abcd';
 
 function App() {
